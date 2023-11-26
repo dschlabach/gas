@@ -9,4 +9,4 @@ edition = "2021"
 clap = { version = "4.4.8", features = ["derive", "wrap_help"] }
 dotenv = "0.15.0"
 ethers = { version = "2.0", features = ["rustls"] }
-tokio = { version = "1", features = ["macros"] }
+tokio = { version = "1", features = ["full"] }
