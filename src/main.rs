@@ -10,8 +10,6 @@ use crate::chains::get_chain_name;
     author = "Daniel Schlabach",
     about = "A CLI for getting gas prices across different EVM chains."
 )]
-struct Args {}
-
 #[tokio::main]
 
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
